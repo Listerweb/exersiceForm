@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="form-container">
+        <div class="form-inside">
+          <div class="form-title">
+            <h2>Контактная форма</h2>
+            <p>Пожалуйста, заполните форму ниже</p>
+          </div>
+
+          <form>
+            <label
+              >Имя пользователя<input type="text" placeholder="Имя"
+            /></label>
+
+            <input type="text" placeholder="Фамилия" />
+            <label>Email<input type="email" placeholder="Email" /></label>
+            <label
+              >Тема письма
+              <textarea
+                class="desc"
+                name="message"
+                placeholder="Ваше сообщение"
+              ></textarea>
+            </label>
+
+            <button>Отправить</button>
+          </form>
+        </div>
+      </div>
+      <div class="image"><img src="/images/cosmonaut.png" /></div>
+    </main>
+  </body>
+</html>
